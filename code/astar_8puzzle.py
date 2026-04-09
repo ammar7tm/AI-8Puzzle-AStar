@@ -9,10 +9,9 @@ GOAL_STATE = (1, 2, 3,
               7, 8, 0)
 
 # Example initial state
-initial_state = (1, 2, 3,
-                 4, 0, 6,
-                 7, 5, 8)
-
+initial_state = (2, 8, 3,
+                 1, 6, 4,
+                 7, 0, 5)
 # Function to print the puzzle
 def print_state(state):
     for i in range(0, 9, 3):
